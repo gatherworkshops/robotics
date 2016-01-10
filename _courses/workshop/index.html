@@ -1,0 +1,41 @@
+---
+layout: workshop
+title: Robotics with mBot
+course: workshop
+
+standard: Pre-NCEA
+heading: Robotics with mBot
+tagline: AS-91073 Create a complex computer program for a specified purpose
+
+studentsurvey: undefined
+teachersurvey: undefined
+
+chapters:
+
+    - name: welcome
+      subtitle: Course Intro
+      title: Welcome
+
+    - name: setup
+      subtitle: Chapter One
+      title: Talking to Your Robot
+
+    - name: basicmotion
+      subtitle: Chapter Two
+      title: Learning to Zoom Zoom
+    
+---
+
+<div class="row">
+
+    {% for chapter in page.chapters %}
+
+
+        {% include chapter-tile.html %}
+
+
+    {% endfor %}
+
+</div>
+
+

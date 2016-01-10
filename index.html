@@ -1,0 +1,35 @@
+---
+layout: home
+title: Courses
+tagline: An introduction to coding.
+
+courses:
+
+    - name: workshop
+      title: Robotics with mBot
+      standard: 91637
+      length: 5 hours
+      description: Maze-solving with programmable robots. 
+---
+
+<div class="container page-header">
+    <h1>{{ site.name }}</h1>
+    <p>{{ page.tagline }}</p>
+</div>
+
+<div class="container">
+    <div class="row chapter-links">
+
+
+
+        {% for course in page.courses %}
+
+            {% include course-tile.html %}
+
+        {% endfor %}
+
+
+
+    </div>
+</div>
+
