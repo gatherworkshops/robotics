@@ -116,14 +116,16 @@
 
 <p><img src="/robotics/theme/assets/images/gw_logo.png" alt="Gather Workshops Logo" /></p>
 
-<h1 id="robotics-with-mbot">Robotics with mBot</h1>
+<h1 id="basic-motions">Basic Motions</h1>
 
 
 <aside class="notes">
 
-Welcome to Programming with Robots!
+Welcome to Programming Robots!
 
-This workshop is designed to introduce you to the basics of programming robots to do cool things.
+This workshop is designed to introduce you to the basics of writing programs for robots.
+
+By the end of the workshop you will have programmed a robot to do cool things!
 
 </aside>
 
@@ -140,21 +142,17 @@ This workshop is designed to introduce you to the basics of programming robots t
 	>
 		
 
-<h2 id="say-hi-to-your-mentors">Say hi to your mentors!</h2>
-
-<p>Your mentors are here to help if you get stuck,<br />
-and you can ask them (almost) anything!</p>
+<h2 id="starting-point">Starting Point</h2>
+<p><img src="/robotics/media/images/slidecontent/startingpoint.jpg" alt="Starting Point" height="250" width="400" /><br />
+Always start with the <em>mBot Program</em> block.<br />
+Without this entry point, your program will not start.</p>
 
 
 <aside class="notes">
 
-Your mentors are super friendly, make sure to say hi.
-
-They actually get paid to do this stuff for a job, which is super cool.
-
-You can ask them for help with your code, ask them about their day job, or ask them what their favourite colour is.
-
-They're here to help, so ask them anything :)
+Without the entry point, your compiler will not that your program is an mBot program. Many different languages work this way too
+There must always be an entry point. What your mBlock program does is, it changes blocks you've placed in your editor
+and turns these blocks into C language code(see arduino mode)
 
 </aside>
 
@@ -171,26 +169,70 @@ They're here to help, so ask them anything :)
 	>
 		
 
-<h2 id="introductions">Introductions</h2>
+<h2 id="basic-motions">Basic Motions</h2>
+<p><img src="/robotics/media/images/slidecontent/basic motion1.jpg" alt="Basic Motions" height="250" width="400" /><br />
+You can go forwards, backwards, turn right, turn left. <br />
+You can also alter your robot speed.</p>
 
-<p>What is your:</p>
+
+<aside class="notes">
+
+There are many other features you can add to your robot too, eg: LED lights, sensors, we will do more of this later.
+No angle option, get them thinking about how to make a perfect 90 degree angle. You can actually enter your own speed,
+every number you wish.
+
+</aside>
+
+</section>
+
+
+
+<!-- slide -->
+<section class=""
+		
+	
+		id=""
+	
+	>
+		
+
+<h2 id="wait">Wait</h2>
+<p><img src="/robotics/media/images/slidecontent/wait.jpg" alt="Basic Motions" height="250" width="400" /><br />
+The wait command means how long your previous block will go on for. <br />
+Try this program.</p>
+
+
+<aside class="notes">
+
+Wait does not meaning stopping and waiting, it simply means that your motion will go on for a certain amount of time. 
+
+</aside>
+
+</section>
+
+
+
+<!-- slide -->
+<section class=""
+		
+	
+		id=""
+	
+	>
+		
+
+<h2 id="uploading-program-to-robot">Uploading Program to Robot</h2>
 
 <ul class="flex-list">
-  <li>Favourite thing?</li>
-  <li>Future?</li>
-  <li>First name?</li>
+  <li><img src="/robotics/media/images/slidecontent/basic motion3.jpg" alt="Instruction 1" height="200" width="300" />To see program code.</li>
+  <li><img src="/robotics/media/images/slidecontent/basic motion4.jpg" alt="Instruction 2" height="200" width="300" />To upload program to mBot.</li>
+  <li><img src="/robotics/media/images/slidecontent/basic motion5.jpg" alt="Instruction 3" height="200" width="300" />Your robot is ready to go!</li>
 </ul>
 
 
 <aside class="notes">
 
-Let's quickly go around the room and introduce ourselves.
-
-Tell us all one of your favourite things - favourite food, sport, hobby, animal, anything!
-
-If you could choose one super power, which would it be?
-
-Last of all, tell us your name.
+Make sure your mBot is plugged in and connected through serial port before clicking on uploading.
 
 </aside>
 
@@ -207,28 +249,14 @@ Last of all, tell us your name.
 	>
 		
 
-<h2 id="schedule">Schedule</h2>
-
-<p><strong>3D Printing</strong></p>
-
-<p><em>Morning Break</em></p>
-
-<p><strong>Robotics Intro</strong></p>
-
-<p><em>Lunch Break</em></p>
-
-<p><strong>Robotics Programming</strong></p>
+<h2 id="reset">Reset</h2>
+<p><img src="/robotics/media/images/slidecontent/reset.jpg" alt="Control commands" height="250" width="400" /><br />
+Want to go again?<br />
+To repeat the program simply push the reset button on the robot.</p>
 
 
 <aside class="notes">
-
-Today's workshop is arranged in six different sections.
-
-In the first part we will look at basic motion and features, and also try out some programs and do a few challenges. 
-
-After that we will move on to more difficult stuff like sensors and control statements you can use.
-
-Later we will program with remote controls and use ultrasonic sensors, yay!
+This will make your program start from the beginning and repeat itself. 
 
 </aside>
 
@@ -245,18 +273,19 @@ Later we will program with remote controls and use ultrasonic sensors, yay!
 	>
 		
 
-<p><img src="/robotics/media/images/slidecontent/4JLfU_vr.jpg" alt="mBlock Logo" height="200" /></p>
+<h2 id="angle">Angle</h2>
 
-<h2 id="mbot">mBot</h2>
+<p>There is no precise way of turning your robot, every turn is measured in seconds.</p>
 
-<p>Ensure you install mBlock.</p>
-
-<p><a href="http://www.mblock.cc/download/" target="_blank">Download link</a></p>
+<p>How would you turn it exactly in quarter?</p>
 
 
 <aside class="notes">
-
-:)
+Ask students how they may figure out the angle from speed. The best way is to always keep the same speed, i would recommend
+100, before any challenges get them to make the robot turn in speed 100 and use a stopwatch to time how long it takes for 
+a full circle then divide by 4
+The correct option should be 0.8 seconds for the wait command for a 90 degree angle. 
+Make sure if you change speeds you will have to work out the angle again, as the speed affects the time taken to create an angle. 
 
 </aside>
 
@@ -273,97 +302,17 @@ Later we will program with remote controls and use ultrasonic sensors, yay!
 	>
 		
 
-<p><img src="/robotics/media/images/slidecontent/illu_what_is-board.png" alt="Arduino Logo" height="200" /></p>
+<h2 id="challenge">Challenge</h2>
 
-<h2 id="install-apple-driver">Install apple Driver</h2>
-
-<p>Make sure to install this driver so your computer can talk to your mBot.</p>
-
-<p><a href="http://blog.sengotta.net/wp-content/uploads/2015/11/CH34x_Install.zip" target="_blank">Download link</a></p>
+<p>Make your robot drive in a square<br />
+You should only need the basic motions we have covered.</p>
 
 
 <aside class="notes">
-This driver is for Mac only, if you have windows then go connect->install arduino driver.
-
-</aside>
-
-</section>
-
-
-
-<!-- slide -->
-<section class=""
-		
-	
-		id=""
-	
-	>
-		
-
-<h2 id="install-windows-driver">Install Windows Driver</h2>
-<p><img src="/robotics/media/images/slidecontent/instructions1.jpg" alt="Arduino Logo" height="200" /></p>
-
-<p>If you have windows simply click on <strong>install arduino driver</strong></p>
-
-
-<aside class="notes">
-You may have to download a seperate driver if it doesnt work, USB stick. 
-
-</aside>
-
-</section>
-
-
-
-<!-- slide -->
-<section class=""
-		
-	
-		id=""
-	
-	>
-		
-
-<h2 id="connect-mbot">Connect mBot</h2>
-
-<ul class="flex-list">
-  <li><img src="/robotics/media/images/slidecontent/instructions3.jpg" alt="Instruction 1" height="200" width="300" /><br />
-Plug cable in.</li>
-  <li><img src="/robotics/media/images/slidecontent/onbutton.jpg" alt="Instruction 2" height="200" width="300" /><br />
-Turn robot on.</li>
-  <li><img src="/robotics/media/images/slidecontent/instructions2.jpg" alt="Instruction 3" height="200" width="300" /><br />
-Connect robot to mBlock.</li>
-</ul>
-<p>Note that if can’t see the COM port, then you probably have issues with your driver.</p>
-
-
-<aside class="notes">
-
-:)
-
-</aside>
-
-</section>
-
-
-
-<!-- slide -->
-<section class=""
-		
-	
-		id=""
-	
-	>
-		
-
-<h2 id="are-you-connected">Are you connected?</h2>
-<p><img src="/robotics/media/images/slidecontent/connected.jpg" alt="mBlock Logo" height="200" /><br />
-If your mBlock program says connected at the top, then you are ready to go!</p>
-
-
-<aside class="notes">
-
-:)
+Ok before we start, lets think about how we can make sure the robot is turning into a 90 degree angle.
+There is no angle option for the robot. Any suggestions on how you might work out the angle just from the speed?
+You will have to work out the how many seconds it takes turning at a speed of 100 until it completes a 360 degree angle then
+divide by 4. 
 
 </aside>
 
@@ -382,15 +331,14 @@ If your mBlock program says connected at the top, then you are ready to go!</p>
 
 <p><img src="/robotics/theme/assets/images/thumbs-up.svg" alt="Thumbs Up!" height="200" /></p>
 
-<h2 id="intro-stuff-complete">Intro Stuff: Complete!</h2>
+<h2 id="basic-motions-completed">Basic Motions: Completed</h2>
 
-<p>Great, now it’s time for the fun stuff…<br />
-<a href="motion.html">Take me to the next chapter!</a></p>
+<p><a href="features.html">Take me to the next chapter!</a></p>
 
 
 <aside class="notes">
 
-Great! Now that's all sorted, let's get started!
+Great! Now lets more on to the next chapter and learn more features you can add to your program. 
 
 </aside>
 

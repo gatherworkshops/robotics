@@ -11,20 +11,16 @@ slides:
 
       ![Gather Workshops Logo]([[BASE_URL]]/theme/assets/images/gw_logo.png)
 
-      # Computer Programming
-      _Level 3: Create a complex computer program for a specified task_
+      # Robotics with mBot
+      
 
     notes: |
 
-      Welcome to Building with jQuery!
+      Welcome to Programming with Robots!
 
-      This workshop is designed to introduce you to the basics of writing JavaScript with jQuery.
+      This workshop is designed to introduce you to the basics of programming robots to do cool things.
 
-      By the end of the workshop you will have coded and published a selection of small interactive code demos.
-
-    
-
-
+      
 ##########
 
 
@@ -58,7 +54,7 @@ slides:
       What is your:
 
       - Favourite thing?
-      - Super power?
+      - Future?
       - First name?
       {: .flex-list}
 
@@ -82,26 +78,25 @@ slides:
 
       ## Schedule
 
-      **Widgets and Layouts**
+      **3D Printing**
 
       _Morning Break_
 
-      **Events and Data Management**
+      **Robotics Intro**
 
       _Lunch Break_
 
-      **Submission Requirements**
+      **Robotics Programming**
 
     notes: |
 
       Today's workshop is arranged in six different sections.
 
-      In the first part we will look at how the Internet works and what this means for us as coders, plus take a look at the basics of web code languages. 
+      In the first part we will look at basic motion and features, and also try out some programs and do a few challenges. 
 
-      After that we will start working on our own websites, so think about a topic! We will design a page layout and a menu bar.
+      After that we will move on to more difficult stuff like sensors and control statements you can use.
 
-      Later we will add some fancy extras to our site, like YouTube videos and a gallery.
-
+      Later we will program with remote controls and use ultrasonic sensors, yay!
     
 
 
@@ -110,13 +105,13 @@ slides:
 
   - content: |
 
-      ![Python Logo]([[BASE_URL]]/media/images/slidecontent/python.svg){: height="200"}
+      ![mBlock Logo]([[BASE_URL]]/media/images/slidecontent/4JLfU_vr.jpg){: height="200"}
 
-      ## Python 3
+      ## mBot
 
-      Ensure you are running Python 3
+      Ensure you install mBlock.
 
-      [Download link](https://www.python.org/downloads/){: target="_blank"}
+      [Download link](http://www.mblock.cc/download/){: target="_blank"}
 
     notes: |
 
@@ -130,39 +125,68 @@ slides:
 
   - content: |
 
-      ![PyCharm Logo]([[BASE_URL]]/media/images/slidecontent/pycharm.png){: height="200"}
+      ![Arduino Logo]([[BASE_URL]]/media/images/slidecontent/illu_what_is-board.png){: height="200"}
 
-      ## PyCharm Edu
+      ## Install apple Driver
 
-      We will be using Pycharm Edu edition as our IDE
+      Make sure to install this driver so your computer can talk to your mBot. 
 
-      [Download link](https://www.jetbrains.com/pycharm-edu/download/){: target="_blank"}
+      [Download link](http://blog.sengotta.net/wp-content/uploads/2015/11/CH34x_Install.zip){: target="_blank"}
 
     notes: |
-      :)
+      This driver is for Mac only, if you have windows then go connect->install arduino driver.
 
-    
+##########
+
+
+  - content: |
+
+      ## Install Windows Driver
+      ![Arduino Logo]([[BASE_URL]]/media/images/slidecontent/instructions1.jpg){: height="200"}
+
+      If you have windows simply click on **install arduino driver** 
+
+    notes: |
+      You may have to download a seperate driver if it doesnt work, USB stick. 
 
 
 ##########
 
   - content: |
 
-      ## Sample Code
+      ## Connect mBot
 
-      Download and unzip the starter code for this workshop.
-
-      [Download Link]([[BASE_URL]]/media/zip/pythonchallenges.zip){: target="_blank"}
-    
+      - ![Instruction 1]([[BASE_URL]]/media/images/slidecontent/instructions3.jpg){: height="200" width="300"}
+        Plug cable in.
+      - ![Instruction 2]([[BASE_URL]]/media/images/slidecontent/onbutton.jpg){: height="200" width="300"}
+        Turn robot on.
+      - ![Instruction 3]([[BASE_URL]]/media/images/slidecontent/instructions2.jpg){: height="200" width="300"}
+        Connect robot to mBlock.
+      {: .flex-list}
+      Note that if can't see the COM port, then you probably have issues with your driver.
     notes: |
 
-      Download and unzip the starter kit. This zip file contains all the starter code for the challenges in this workshop.
+      :)
 
     
 
 ##########
 
 
+
+  - content: |
+
+
+      ## Are you connected?
+      ![mBlock Logo]([[BASE_URL]]/media/images/slidecontent/connected.jpg){: height="200"}
+      If your mBlock program says connected at the top, then you are ready to go!
+
+
+    notes: |
+
+      :)
+
+##########
   - content: |
 
       ![Thumbs Up!]([[BASE_URL]]/theme/assets/images/thumbs-up.svg){: height="200"}
@@ -170,7 +194,7 @@ slides:
       ## Intro Stuff: Complete!
 
       Great, now it's time for the fun stuff...
-      [Take me to the next chapter!](review.html)
+      [Take me to the next chapter!](motion.html)
 
     notes: |
 
