@@ -32,7 +32,7 @@ slides:
     notes: |
 
       In that case you would use a forever loop(also known as a while loop). This makes your program run repeat itself forever.
-      A forever loop makes life a lot easier in terms of not having to write lots and lots of lines of code.
+      A forever loop makes life a lot easier in terms of not having to write lots and lots of lines of code for repeated functions.
 
     
 ##########
@@ -67,8 +67,7 @@ slides:
       
 
     notes: |
-      Instead of writing go forwards, turn right, go forwards turn right and so on... You can simply add in a repeat option!
-      The repeat loop is also known as a for loop, simply choose the amount of times you want your program to repeat.
+      How could you do this?
 
     
 
@@ -86,8 +85,9 @@ slides:
       
 
     notes: |
-      Instead of writing go forwards, turn right, go forwards turn right and so on... You can simply add in a repeat option! 
       What does this program do?
+      Instead of writing go forwards, turn right, go forwards turn right and so on... You can simply add in a repeat option! 
+      The repeat loop is also known as a for loop, simply choose the amount of times you want your program to repeat.
     
 
 ##########
@@ -104,7 +104,7 @@ slides:
 
     notes: |
 
-      :)
+      Do you remember how to use angles?
 
 ##########
 
@@ -141,7 +141,7 @@ slides:
 
     notes: |
 
-      :)
+      :) :) :)
 
 
 ---

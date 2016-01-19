@@ -35,7 +35,7 @@ slides:
       Without this entry point, your program will not start.  
     notes: |
 
-      Without the entry point, your compiler will not that your program is an mBot program. Many different languages work this way too
+      Without the entry point, the mblock software will not know your program is an mBot program. Many different languages work this way too
       There must always be an entry point. What your mBlock program does is, it changes blocks you've placed in your editor
       and turns these blocks into C language code(see arduino mode)
 
@@ -54,6 +54,7 @@ slides:
       There are many other features you can add to your robot too, eg: LED lights, sensors, we will do more of this later.
       No angle option, get them thinking about how to make a perfect 90 degree angle. You can actually enter your own speed,
       every number you wish.
+      With the speed you can choose from 0 - 255 or you can simply type whatever number you want.
 
     
 ##########
@@ -108,11 +109,11 @@ slides:
 
       
 
-      ## Angle
+      ## Turning your robot
       
       There is no precise way of turning your robot, every turn is measured in seconds. 
       
-      How would you turn it exactly in quarter?
+      How would you turn it exactly a quarter?
       
 
     notes: |

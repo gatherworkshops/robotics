@@ -130,6 +130,7 @@ slides:
       ## Install apple Driver
 
       Make sure to install this driver so your computer can talk to your mBot. 
+      If your computer asks to restart then do it now
 
       [Download link](http://blog.sengotta.net/wp-content/uploads/2015/11/CH34x_Install.zip){: target="_blank"}
 
@@ -163,10 +164,10 @@ slides:
       - ![Instruction 3]([[BASE_URL]]/media/images/slidecontent/instructions2.jpg){: height="200" width="300"}
         Connect robot to mBlock.
       {: .flex-list}
-      Note that if can't see the COM port, then you probably have issues with your driver.
+      Note that if you can't see the COM port, then you probably have issues with your driver.
     notes: |
 
-      :)
+      :) :) :)
 
     
 
@@ -179,7 +180,8 @@ slides:
 
       ## Are you connected?
       ![mBlock Logo]([[BASE_URL]]/media/images/slidecontent/connected.jpg){: height="200"}
-      If your mBlock program says connected at the top, then you are ready to go!
+      If your mBlock program says connected at the top
+      then you are ready to go!
 
 
     notes: |

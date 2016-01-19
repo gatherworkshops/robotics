@@ -55,7 +55,7 @@ slides:
 
     notes: |
       Explain how you can program your robot to do as you want when you press a certain button. 
-      Anyone know what IR stands for?
+      
 
     
 
